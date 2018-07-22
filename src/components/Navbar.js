@@ -19,7 +19,7 @@ const Navbar = () => (
           About
         </Link>
         <Link className="navbar-item" to="/products">
-          Products
+          Work
         </Link>
       </div>
       <div className="navbar-end">
