@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/si-sprite.svg'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
@@ -10,7 +10,7 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Nye Warburton" style={{ width: '88px' }} />
+            <img src={logo} alt="Home Button" />
           </figure>
         </Link>
       </div>
